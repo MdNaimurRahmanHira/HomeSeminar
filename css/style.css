@@ -1,0 +1,694 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* top header part start from here */
+.top-header-text {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+#horizontal-devider p {
+    border-right: 1px solid gray;
+
+}
+
+@media only screen and (max-width:768px) {
+
+    .top-header .container p {
+        font-size: 12px;
+    }
+}
+
+/* top header part end here */
+
+/* navbar start from here */
+.bar {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: none;
+
+}
+
+.logo-nav-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: #2980b9;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.logo a h4 {
+    margin-bottom: 0;
+}
+
+.logo-nav-wrapper a h4 {
+    font-size: 35px;
+}
+
+.navbar {
+    align-items: center;
+    background: #2c3e50;
+    justify-content: space-between;
+    padding: 10px 0px;
+
+}
+
+.navbar .navmenu .active {
+    background: #2980b9;
+    border-radius: 5px;
+}
+
+.navmenu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.navmenu li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.navmenu li {
+    padding: 13px;
+}
+
+.navmenu li:hover {
+    background: #2980b9;
+    border-radius: 5px;
+}
+
+.searchbox {
+    display: flex;
+}
+
+.searchbox input {
+    width: 250px;
+    outline: none;
+    padding: 5px 10px;
+    border: none;
+    margin-left: 10px;
+
+
+}
+
+.searchbox i:hover {
+    color: #287db6;
+    background: #dfe6e9;
+    cursor: pointer;
+}
+
+
+
+.searchbox .fa-search {
+    background: white;
+    padding: 9px;
+    color: #2980b9;
+    vertical-align: middle;
+    border-left: 1px solid #80808061;
+}
+
+.member-info {
+    display: flex;
+    color: white;
+    align-items: center;
+
+
+}
+
+.sign-in,
+.sign-up {
+
+    padding: 5px;
+    margin-right: 5px;
+    align-items: center;
+    border: 1px solid #2980b9;
+    cursor: pointer;
+}
+
+.sign-in a,
+.sign-up a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+}
+
+.sign-in p,
+.sign-up p {
+    margin-bottom: 0;
+
+}
+
+
+
+/* navbar end here */
+/* banner part start */
+.banner {
+    background: LINEAR-GRADIENT(#00000047, #00000080), url(../images/banner-img.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.banner-title-box {
+    color: #dfe6e9;
+    padding: 30px 10px;
+}
+
+.banner-title-box .banner-title {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.banner-title-box .banner-subtitle {
+    margin-bottom: 10px;
+}
+
+.banner-title-box .btn:hover {
+    background: #287db6;
+}
+
+.banner-title-box button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* banner part end */
+/* offer part start */
+.common-btn {
+    background: #3498db;
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+}
+
+.common-btn:hover {
+    background: #287db6;
+}
+
+.common-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.hotel-rating i {
+    color: #fbc531;
+    font-size: 10px;
+}
+
+.offer-box .offer-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.card img {
+    height: 200px;
+    width: 100%;
+}
+
+hr {
+    background-color: #287db6;
+}
+
+.card-body {
+    padding: 5px;
+    text-align: center;
+}
+
+.card-body .btn {
+    margin: auto;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 9px #dadada;
+    transition: .4s;
+}
+
+.card-title {
+    margin-bottom: 5px;
+}
+
+.card-text {
+    margin-bottom: 0px;
+}
+
+/* offer part end */
+/* pricing section start */
+.pricing-section {
+    background: #ecf0f1;
+    padding: 50px;
+}
+
+.pricing-title {
+    background: white;
+    padding: 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.pricing-title h2 {
+    margin-bottom: 0;
+    color: #34495e;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.pricing {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    /* box-shadow: 2px 2px 8px #bdc3c7; */
+}
+
+.pricing-body {
+    background: linear-gradient(#2980b9, #3498db);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 10px 0px;
+}
+
+.pricing .common-btn {
+    margin: 10px auto;
+    background: white;
+
+
+}
+
+.pricing .common-btn:hover {
+    background: #dfdfdf;
+
+}
+
+.pricing .common-btn a {
+    color: #2980b9;
+    font-weight: bold;
+}
+
+
+.pricing-service {
+    background: #ecf0f1;
+    width: 100%;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.pricing-price h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.pricing-service p {
+    padding: 10px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.pricing-service p i {
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.pricing-service p i.fa-check {
+    color: green;
+}
+
+.pricing-service p i.fa-times {
+    color: red;
+}
+
+/* pricing section end */
+/* video part */
+.carousel {
+    width: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.carousel-inner img {
+    height: 600px;
+}
+
+/* video part */
+/* massage section start from here */
+.message-section {
+    background: linear-gradient(#81ecec, #74b9ff);
+}
+
+.message-vector-img {
+    height: 100%;
+}
+
+.message-section .message-vector-img img {
+    height: 400px;
+}
+
+.form-control {
+    border: none;
+    box-shadow: 1px 2px 3px #6b6b6b
+}
+
+.message-section .btn {
+    box-shadow: 1px 2px 3px #6b6b6b;
+}
+
+/* massage section end from here */
+
+/* footer part start */
+.footer-part {
+    background: #2d3436;
+}
+
+.footer-part .title {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.footer-part .title-desc {
+    color: white;
+}
+
+.footer-part .social-link i {
+    color: white;
+    font-size: 30px;
+    background: #636e72;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 5px;
+
+}
+
+.footer-part .social-link {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.copyright i {
+    color: white;
+
+
+}
+
+/* footer part end */
+/* responsive part  start */
+@media screen and (max-width:1220px) {
+    .navmenu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #2c3e50;
+        width: 100%;
+        top: 95%;
+        left: -100%;
+        padding: 0;
+        transition: .6s;
+        z-index: 1;
+    }
+
+    .searchbox input {
+        margin: 0px;
+    }
+
+    .navmenu li {
+        width: 100%;
+
+    }
+
+    .bar {
+        display: block;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+
+    .message-section .message-vector-img img {
+        height: 300px;
+        margin: auto;
+
+    }
+
+    .message-vector-img {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+.left0 {
+
+    left: 0px;
+    transition: .6s;
+}
+
+@media screen and (max-width:810px) {
+    .logo-nav-wrapper .logo a h4 {
+        font-size: 25px;
+    }
+
+    .top-header-text {
+        font-size: 10px;
+    }
+
+    .searchbox input {
+        width: 150px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .searchbox .fa-search {
+        height: 25px;
+        padding: 5px;
+
+    }
+
+    .searchbox {
+        text-align: center;
+    }
+
+    .sign-in p,
+    .sign-in i,
+    .sign-up p,
+    .sign-up i {
+        font-size: 10px
+    }
+
+    .navmenu {
+        top: 95%;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .carousel-inner img {
+        height: 450px;
+    }
+    .pricing{
+        width:70%;
+    }
+}
+
+@media screen and (max-width:610px) {
+    .searchbox input {
+        width: 100px;
+        font-size: 10px;
+
+    }
+
+    .logo-nav-wrapper .logo a h4 {
+        font-size: 20px;
+    }
+
+    .sign-in p,
+    .sign-up p {
+        font-size: 10px
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .bar {
+        font-size: 20px;
+    }
+    
+    .card {
+        max-width: 400px;
+        margin: 10px auto;
+
+    }
+
+    .card-body {
+        text-align: left;
+    }
+
+    .card-body .btn {
+        margin: 10px 0px;
+    }
+
+    .card img {
+        height: 300px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:495px) {
+    .banner .banner-title {
+        font-size: 40px;
+    }
+
+    .banner {
+        background-size: cover;
+    }
+
+    .banner-subtitle {
+        font-size: 20px;
+    }
+
+    .banner .title-desc {
+        font-size: 12px;
+    }
+
+    .banner-title-box {
+        padding: 0;
+    }
+
+    .top-header-text {
+        font-size: 8px;
+        color: #2d3436;
+    }
+
+    .sign-in p,
+    .sign-in i,
+    .sign-up p,
+    .sign-up i {
+        font-size: 5px;
+
+    }
+
+    .sign-in i,
+    .sign-up i {
+        padding-right: 2px;
+    }
+
+    .sign-in,
+    .sign-up {
+        padding: 2px;
+    }
+
+    .searchbox input {
+        padding: 5px;
+        height: 20px;
+    }
+
+    .searchbox .fa-search {
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .navmenu li {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    
+    
+}
+
+@media screen and (max-width:450px) {
+    .logo-nav-wrapper .logo a h4 {
+        font-size: 10px;
+    }
+
+    .top-header-text {
+        font-size: 5px;
+    }
+
+    .navmenu li a {
+        font-size: 12px;
+    }
+
+    .navmenu li {
+        padding: 7px;
+    }
+
+    .navbar .searchbox input {
+        height: 20px;
+    }
+
+    .navbar .searchbox .fa-search {
+        font-size: 10px;
+
+    }
+
+
+    .pricing-section {
+        padding: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:360px) {
+
+
+    .sign-up {
+        margin-right: 0px;
+    }
+
+    .card img {
+        height: 250px;
+    }
+
+    .carousel-inner img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:345px) {
+    .navbar .container-fluid {
+        padding: 0px 5px;
+    }
+
+    .searchbox input {
+        width: 80px;
+    }
+    .pricing-service p{
+        font-size: 12px;
+    }
+}
+
+/* responsive part  start */

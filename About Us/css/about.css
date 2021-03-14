@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.common-btn {
+    background: #1abc9c;
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+}
+
+.common-btn:hover {
+    background: #16a085 !important;
+}
+
+.common-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+hr {
+    background-color: #287db6;
+}
+
+/* top header part start from here */
+.top-header-text {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+#horizontal-devider p {
+    border-right: 1px solid gray;
+
+}
+
+@media only screen and (max-width:768px) {
+
+    .top-header .container p {
+        font-size: 12px;
+    }
+}
+
+/* top header part end here */
+/* navbar start from here */
+.bar {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: none;
+
+}
+
+.logo-nav-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: #2980b9;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.logo a h4 {
+    margin-bottom: 0;
+}
+
+.logo-nav-wrapper a h4 {
+    font-size: 35px;
+}
+
+.navbar {
+    align-items: center;
+    background: #2c3e50;
+    justify-content: space-between;
+    padding: 10px 0px;
+
+}
+
+.navbar .navmenu .active {
+    background: #2980b9;
+    border-radius: 5px;
+}
+
+.navmenu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.navmenu li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.navmenu li {
+    padding: 13px;
+}
+
+.navmenu li:hover {
+    background: #2980b9;
+    border-radius: 5px;
+}
+
+.searchbox {
+    display: flex;
+}
+
+.searchbox input {
+    width: 250px;
+    outline: none;
+    padding: 5px 10px;
+    border: none;
+    margin-left: 10px;
+
+
+}
+
+.searchbox i:hover {
+    color: #287db6;
+    background: #dfe6e9;
+    cursor: pointer;
+}
+
+
+
+.searchbox .fa-search {
+    background: white;
+    padding: 9px;
+    color: #2980b9;
+    vertical-align: middle;
+    border-left: 1px solid #80808061;
+}
+
+.member-info {
+    display: flex;
+    color: white;
+    align-items: center;
+
+
+}
+
+.sign-in,
+.sign-up {
+
+    padding: 5px;
+    margin-right: 5px;
+    align-items: center;
+    border: 1px solid #2980b9;
+    cursor: pointer;
+}
+
+.sign-in a,
+.sign-up a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+}
+
+.sign-in p,
+.sign-up p {
+    margin-bottom: 0;
+
+}
+
+
+
+/* navbar end here */
+
+/* banner part */
+.banner {
+    background: linear-gradient(#1abc9c, #2980b9);
+}
+
+.banner-title-box {
+    color: #dfe6e9;
+    padding: 30px 10px;
+}
+
+.banner-title-box .banner-title {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.banner-title-box .banner-subtitle {
+    margin-bottom: 10px;
+}
+
+.banner-title-box .btn:hover {
+    background: #287db6;
+}
+
+.banner-title-box button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* banner part end*/
+
+/* about us  part */
+.about-us {
+    background: #ecf0f1;
+}
+
+.about-us ul {
+    padding-left: 5px;
+}
+
+.about-us ul li {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-transform: capitalize;
+
+}
+
+.card h2 {
+    font-family: dancing script;
+    color: #2ecc71;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    /* text-shadow: 1px 1px 5px #2ecc71; */
+}
+
+.card {
+    background: #3498db;
+
+}
+
+
+/* about us  part */
+/* footer part start */
+.footer-part {
+    background: #2d3436;
+}
+
+.footer-part .title {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.footer-part .title-desc {
+    color: white;
+}
+
+.footer-part .social-link i {
+    color: white;
+    font-size: 30px;
+    background: #636e72;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 5px;
+
+}
+
+.footer-part .social-link {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.copyright i {
+    color: white;
+
+
+}
+
+/* footer part end */
+/* responsive part  start */
+@media screen and (max-width:1220px) {
+    .navmenu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #2c3e50;
+        width: 100%;
+        top: 95%;
+        left: -100%;
+        padding: 0;
+        transition: .6s;
+        z-index: 1;
+    }
+
+    .searchbox input {
+        margin: 0px;
+    }
+
+    .navmenu li {
+        width: 100%;
+
+    }
+
+    .bar {
+        display: block;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .pricing {
+        width: 300px;
+    }
+
+    .message-section .message-vector-img img {
+        height: 300px;
+        margin: auto;
+
+    }
+
+    .message-vector-img {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+.left0 {
+
+    left: 0px;
+    transition: .6s;
+}
+
+@media screen and (max-width:810px) {
+    .logo-nav-wrapper .logo a h4 {
+        font-size: 25px;
+    }
+
+    .top-header-text {
+        font-size: 10px;
+    }
+
+    .searchbox input {
+        width: 150px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .searchbox .fa-search {
+        height: 25px;
+        padding: 5px;
+
+    }
+
+    .searchbox {
+        text-align: center;
+    }
+
+    .sign-in p,
+    .sign-in i,
+    .sign-up p,
+    .sign-up i {
+        font-size: 10px
+    }
+
+    .navmenu {
+        top: 95%;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .carousel-inner img {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:610px) {
+    .searchbox input {
+        width: 100px;
+        font-size: 10px;
+
+    }
+
+    .logo-nav-wrapper .logo a h4 {
+        font-size: 20px;
+    }
+
+    .sign-in p,
+    .sign-up p {
+        font-size: 10px
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .bar {
+        font-size: 20px;
+    }
+
+    .card {
+        max-width: 400px;
+        margin: 10px auto;
+
+    }
+
+    .card-body {
+        text-align: left;
+    }
+
+    .card-body .btn {
+        margin: 10px 0px;
+    }
+
+    .card img {
+        height: 300px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:495px) {
+    .banner .banner-title {
+        font-size: 40px;
+    }
+
+    .banner {
+        background-size: cover;
+    }
+
+    .banner-subtitle {
+        font-size: 20px;
+    }
+
+    .banner .title-desc {
+        font-size: 12px;
+    }
+
+    .banner-title-box {
+        padding: 0;
+    }
+
+    .top-header-text {
+        font-size: 8px;
+        color: #2d3436;
+    }
+
+    .sign-in p,
+    .sign-in i,
+    .sign-up p,
+    .sign-up i {
+        font-size: 5px;
+
+    }
+
+    .sign-in i,
+    .sign-up i {
+        padding-right: 2px;
+    }
+
+    .sign-in,
+    .sign-up {
+        padding: 2px;
+    }
+
+    .searchbox input {
+        padding: 5px;
+        height: 20px;
+    }
+
+    .searchbox .fa-search {
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .navmenu li {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .pricing {
+        width: 250px;
+    }
+
+    .pricing-service {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .logo-nav-wrapper .logo a h4 {
+        font-size: 10px;
+    }
+
+    .top-header-text {
+        font-size: 5px;
+    }
+
+    .navmenu li a {
+        font-size: 12px;
+    }
+
+    .navmenu li {
+        padding: 7px;
+    }
+
+    .navbar .searchbox input {
+        height: 20px;
+    }
+
+    .navbar .searchbox .fa-search {
+        font-size: 10px;
+
+    }
+
+
+    .pricing-section {
+        padding: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:360px) {
+
+
+    .sign-up {
+        margin-right: 0px;
+    }
+
+    .card img {
+        height: 250px;
+    }
+
+    .carousel-inner img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:345px) {
+    .navbar .container-fluid {
+        padding: 0px 5px;
+    }
+
+    .searchbox input {
+        width: 80px;
+    }
+
+}
+
+/* responsive part  start */
